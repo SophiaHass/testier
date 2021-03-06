@@ -11,9 +11,7 @@
   </head>
 
   <body>
-    <% flash.each do |nm, msg| %>
-    <%= msg%>
-    <%end%>
+    <%= render "layouts/my_first_partial" %>
     <%= yield %>
   </body>
 </html>
